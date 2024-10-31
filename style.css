@@ -1,0 +1,228 @@
+
+.container-fluid{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    height: 200px;
+    background-color: red;
+}
+
+.navbar {
+    top: 150px;
+    position: sticky;
+    overflow: hidden;
+    display: block;
+ 
+  }
+
+ul {
+    list-style-type: none;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: red;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: black;
+    text-underline-position: below;
+  }
+
+  .content1{
+    width: 100%;
+    height: auto;
+    background-color: white;
+}
+
+.container2{
+    width: 100%;
+    height: 300px;
+    background-color: rgb(250, 245, 245);
+}
+
+.textbar{
+    width: 40%;
+    height: 300px;
+    float: left;
+    background-color: rgb(255, 251, 251);
+}
+
+.imgbar{
+    width: 60%;
+    height: 300px;
+    float: right;
+    background-color: rgb(250, 245, 245);
+}
+
+.sheff{
+    width: 50%;
+    height: 300px;
+    padding-top: 60px;
+    float: left;
+
+    
+}
+
+.sheff2{
+    width: 200px;
+    height: 200px;
+    padding-top: 60px;
+    float: left;
+}
+.btn{
+    position: relative;
+    left: 100px;
+    background-color: red;
+    color:white
+  }
+
+  #container6 {
+   background-color: white;
+   height: 300px;
+   width: 100%;
+  }
+
+
+.adj{
+  height: 300px;
+   width: 100%;
+   margin-top: 80px;
+   border-radius: 40px;
+}
+
+.container3{
+  margin-top: 100px;
+  background-color: white;
+  height: 300px;
+  width: 100%;
+}
+
+#fact{
+  margin-top: 40px;
+  height: 400px;
+   width: 80%;
+  
+}
+
+.z11{
+ width: 100%;
+ height: 500px;
+}
+
+.info_section {
+  background-color:white;
+  color: red;
+  padding: 90px 0 45px 0;
+}
+
+.info_section h5 {
+  margin-bottom: 25px;
+  font-size: 24px;
+}
+
+.info_section .info_links ul {
+  padding: 0;
+}
+
+.info_section .info_links ul li {
+  list-style-type: none;
+}
+
+.info_section .info_links ul li a {
+  color: #ffffff;
+}
+
+.info_section .info_contact .img-box {
+  width: 35px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.info_section .info_contact p {
+  margin: 0;
+}
+
+.info_section .info_contact > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+}
+
+.info_section .info_contact > div img {
+  height: auto;
+  margin-right: 12px;
+}
+
+.info_section .info_form form input {
+  outline: none;
+  width: 100%;
+  padding: 7px 10px;
+}
+
+.info_section .info_form form button {
+  padding: 8px 35px;
+  outline: white;
+  border: white;
+  color: red;
+  background:white;
+  margin-top: 15px;
+  text-transform: uppercase;
+}
+
+.info_section .info_form .social_box {
+  margin-top: 35px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.info_section .info_form .social_box a {
+  margin-right: 25px;
+}
+
+/* footer section*/
+.footer_section {
+  background-color:red;
+}
+
+.footer_section p {
+  border-top: 1px solid #ffffff;
+  color: #ffffff;
+  margin: 0;
+  width: 70%;
+  padding: 25px 0 20px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.footer_section a {
+  color: #ffffff;
+}
+
